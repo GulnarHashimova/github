@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+  font-family: "Roboto Slab", serif;
+  font-size: 3vw;
+  margin-top: 4vw;
+  margin-left: 7vw;
+}
+
+.first-section{
+  display: flex;
+  align-items: center;
+}
+.first-section img{
+  width: 17vw;
+  height: 17vw;
+  margin-left: 20vw;
+
+
+}
+.first-section-text{
+  font-family: "Roboto", sans-serif;
+  width: 35vw;
+  font-size: 1.4vw;
+  margin-left: 6.5vw;
+
+}
+
+.second-section{
+  display: flex;
+  align-items: center;
+  margin-left: 6.5vw;
+  margin-top: 3vw;
+  gap: 9vw;
+
+}
+
+.second-section img{
+  width: 13vw;
+  height: 13vw;
+}
+
+.second-section-text{
+  display: flex;
+  gap: 5vw;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1vw;
+  width: 10vw;
+
+}
+
+@media screen and (max-width: 1400px) and (min-width: 830px){
+  .second-section img{
+    display: none;
+  }
+  .second-section{
+    margin-left: 7vw;
+  }
+
+}
+
+
+@media screen and (max-width: 830px) and (min-width: 375px){
+  h1{
+    font-size: 7vw;
+    margin-left: 17vw;
+    margin-top: 15vw;
+  }
+  .first-section{
+    flex-direction: column;
+
+  }
+  .first-section-text{
+    width: 77vw;
+    font-size: 3vw;
+    margin-bottom: 8vw;
+
+  }
+  .first-section img{
+  width: 35vw;
+  height: 35vw;
+  margin-bottom: 7vw;
+  margin-left: 2vw;
+ }
+
+  .second-section img{
+    display: none;
+  
+  }
+  .second-section-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 7vw;
+    row-gap: 0;
+
+  }
+ 
+ .text{
+  font-size: 2vw;
+  width: 15vw;
+ }
+
+
+}
+
+
