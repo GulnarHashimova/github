@@ -14,7 +14,7 @@ app.get('/employees',(req,res)=>{
     }
     else{
         const employees=JSON.parse(data)
-        res.send(employees);
+        res.send(employees);c
         
     }
 })
